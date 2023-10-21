@@ -1,0 +1,96 @@
+* { 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+    @font-face {
+        font-family: HelveticaUltraLt;
+        src: url('Eu4horia/Files/HelveticaUltraLt.ttf');}
+   
+}
+
+body {
+
+    background-color: black;
+    overflow: hidden;
+
+}
+
+img { 
+
+    translate: -100px -10px;
+    transition-duration: 2s;
+
+}
+
+nav {
+
+    text-align: center;
+    transition-duration: 2s;
+
+}
+
+nav a { 
+
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 30px;
+    translate: 600px 0px;
+    text-decoration: none;
+    transition-duration: 2s;
+    font-weight: bolder;
+    background-image: url(Files/Purple_1-transformed.jpeg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-position: -150px;
+    
+}
+
+header { 
+
+    text-align: center;
+
+}
+
+.Timer-Header {
+
+    translate: 0px 250px; 
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 2s;
+    font-weight: bolder;
+    background-image: url(Files/Purple_1-transformed.jpeg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: -150px;
+
+}
+
+.Timer {
+
+    translate: 0px 200px;
+    font-size: 400px;
+    text-align: center;
+    transition-duration: 5s;
+    background-image: url(Files/Purple_1-transformed.jpeg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation-name: Slide;
+    animation-duration: 10s;
+
+}
+
+div {
+
+    background-image: url(Files/Smoke2.gif);  
+    background-size: cover;
+    padding-bottom: 500px;
+    
+}
